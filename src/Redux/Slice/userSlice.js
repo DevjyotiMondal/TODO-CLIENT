@@ -172,7 +172,7 @@ const authSlice = createSlice({
         console.log(state.isLoggedIn);
 
         state.isLoggedIn = true;
-        localStorage.setItem("isLoggedIn", "false");
+        localStorage.setItem("isLoggedIn", "true");
 
         state.avatar = userData.avatar;
         localStorage.setItem("avatar", userData.avatar);

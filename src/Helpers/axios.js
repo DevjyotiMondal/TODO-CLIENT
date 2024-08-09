@@ -1,8 +1,8 @@
 import axios from "axios";
 
 
-// const BASE_URL ="http://localhost:5000/api/v1"
-const BASE_URL="https://todo-server-6n7k.onrender.com"
+const BASE_URL ="http://localhost:5000/api/v1"
+// const BASE_URL="https://todo-server-6n7k.onrender.com"
 
 const axiosInstance =axios.create(
     {
